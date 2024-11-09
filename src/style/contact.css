@@ -1,0 +1,260 @@
+
+#fir{
+ --tw-bg-opacity: 1;
+ background-color: rgb(228 228 231 / var(--tw-bg-opacity))
+}
+#contact-sec-1{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin-left: 2rem;
+ margin-right: 2rem;
+ padding: auto;
+}
+@media (max-width: 480px) {
+  #contact-sec-1{
+   margin-left: 0;
+   grid-template-columns: 1fr;
+  font-size: 10px;
+  margin-top: 1rem;
+  margin-right: 0;
+
+  }
+ }
+#contact-div-1{
+
+margin-top: 3rem;
+ font-family: system-ui,sans-serif;
+ margin-left: 1rem;
+ margin-right: 2rem;
+ border-radius: 1rem;
+ --tw-bg-opacity: 1;
+ background-color: rgb(212 212 216 / var(--tw-bg-opacity))
+}
+#contact-div-1:hover{
+ cursor: pointer;
+ --tw-bg-opacity: 1;
+ background-color: rgb(22 163 74 / var(--tw-bg-opacity))
+}
+#contact-div-img{
+ margin-top: 3rem;
+ margin-left: 3rem;
+ border-radius: 4rem;
+}
+@media (max-width: 480px) {
+  #contact-div-img{
+   margin-left: 4rem;
+  
+  font-size: 10px;
+  margin-top: 3rem;
+  margin-right: 0;
+
+  }
+ }
+#contact-form-container {
+ background-color: gray;
+ border: black;
+ padding: 30px;
+ border-radius: 2rem;
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+ width: 30%;
+margin-top: 3rem;
+margin-left: 3rem;
+}
+@media (max-width: 480px) {
+  #contact-form-container{
+
+  width: 100%;
+  font-size: 10px;
+  margin-top: 3rem;
+
+
+  }
+ }
+#contact-h1 {
+ text-align: center;
+font-family: system-ui,sans-serif;
+ font-size: 2rem;
+
+
+}
+
+#contact-form {
+ display: flex;
+ flex-direction: column;
+}
+
+#form-group {
+ margin-bottom: 15px;
+}
+
+label {
+ font-size: 1rem;
+
+margin-right: 1rem;
+}
+
+input{
+ width:80%;
+ padding: 10px;
+ font-size: 16px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ outline: none;
+ background-color: black;
+ color: white;
+}
+
+input:focus {
+ border-color: black;
+}
+
+textarea {
+ resize: vertical;
+ height: 150px;
+ width:80%;
+ padding: 10px;
+ font-size: 16px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ outline: none;
+ background-color: black;
+ color: white;
+}
+ #message{
+  margin-top: 5px;
+display: flex;
+
+
+ }
+#submit-btn {
+ background-color: green;
+ color: #fff;
+ padding: 12px;
+ border: none;
+ width: 9rem;
+ border-radius: 5px;
+ font-size: 16px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+ background-color: yellowgreen;
+}
+#contact{
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 480px) {
+  #contact{
+
+ display: flex;
+ justify-content:center;
+  font-size: 10px;
+  margin-top: 3rem;
+  margin-right: 1rem;
+
+  }
+ }
+
+#deliver-sec{
+  display: flex;
+  justify-content: space-between;
+
+  padding: auto;
+
+ margin-top: 3rem;
+  --tw-bg-opacity: 1;
+ background-color: rgb(21 128 61 / var(--tw-bg-opacity));
+
+}
+@media (max-width: 480px) {
+  #deliver-sec{
+
+display: block;
+
+  font-size: 10px;
+  margin-top: 3rem;
+  margin-right: 0;
+
+  }
+ }
+
+
+#deliver-sec-h1{
+  font-family: system-ui,sans-serif;
+  font-size: 4rem;
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity));
+
+}
+@media (max-width: 480px) {
+  #deliver-sec-h1{
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-right: 0;
+
+  }
+ }
+#deliver-sec-h2{
+  --tw-text-opacity: 1;
+ color: rgb(255 255 255 / var(--tw-text-opacity));
+ font-family: system-ui,sans-serif;
+  font-size: 2rem;
+}
+@media (max-width: 480px) {
+  #deliver-sec-h2{
+  font-size: 2rem;
+
+  margin-right: 0;
+
+  }
+ }
+#deliver-img{
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+@media (max-width: 480px) {
+  #deliver-img{
+margin-right: 3rem;
+    height:8rem;
+    width: 13rem;
+   
+
+ 
+  }
+ }
+#book-a-tab-1{
+  height: 4rem;
+  width:12rem;
+  background-color:rgba(255, 166, 0, 0.73);
+ margin-left: 10rem;
+  border: none;
+  color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.431);
+  font-size:2rem;
+ border-radius: 1rem;
+  }
+  @media (max-width: 480px) {
+    #book-a-tab-1{
+      height: 2rem;
+      width: 5rem;
+     font-size: 10px;
+  margin-left: 0;
+margin-top: 7rem;
+  margin-right: 20rem;
+   
+    }
+   }
+  #book-a-tab-1:hover{
+    background-color: green;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  #book-a-tab-1:active{
+  opacity: 0.10ms;
+  }
+#deliver-div{
+  display: flex;
+  justify-content: space-between;
+} 

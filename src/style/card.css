@@ -1,0 +1,111 @@
+#h1-1{
+ margin-top: 3rem;
+ margin-left: 1rem;
+font-family: system-ui;
+ margin-bottom: 0.5rem;
+ color: rgba(255, 0, 0, 0.891);
+
+font-size: 3rem;
+
+}
+@media (max-width: 480px) {
+ #h1-1{
+ font-size: 1rem;
+ margin-top: 1rem;
+ }
+}
+#h1-2{
+ margin-left: 2rem;
+font-family: system-ui;
+ margin-bottom: 0.5rem;
+font-size: 3rem;
+}
+@media (max-width: 480px) {
+ #h1-2{
+ font-size: 1rem;
+ margin-top: 1rem;
+ }
+}
+#card{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin-top: 2rem;
+ margin-left: 2rem;
+ margin-right: 2rem;
+}
+@media (max-width: 480px) {
+ #card{
+  margin-left: 3rem;
+  grid-template-columns: 1fr;
+ font-size: 10px;
+ margin-top: 1rem;
+ 
+ }
+}
+#card-div{
+ --tw-bg-opacity: 1;
+ background-color: rgb(212 212 216 / var(--tw-bg-opacity)) ;
+ height: auto;
+ width: 20rem;
+ border-radius: 2rem;
+}
+@media (max-width: 480px) {
+ #card-div{
+ 
+ width:14rem;
+ font-size: 10px;
+ margin-top: 1rem;
+ }
+}
+#card-div:hover{
+ --tw-bg-opacity: 1;
+ background-color: rgb(202 138 4 / var(--tw-bg-opacity));
+ cursor: pointer;
+
+}
+#card-div-img{
+ margin-left: 2rem;
+ border-radius: 5rem;
+ margin-top: 2rem;
+}
+#card-div-h1{
+ margin-left: 2rem;
+ font-family: system-ui;
+
+}
+#card-div-p{
+ margin-left: 3rem;
+ font-family: system-ui;
+color: red;
+}
+#card-sec-2{
+ margin-top: 3rem;
+
+}
+@media (max-width: 480px) {
+ #card-sec-2{
+ margin-top: 1rem;
+ }
+}
+#card-sec-2-1{
+ margin-left: 2rem;
+ border-radius: 2rem;
+}
+@media (max-width: 480px) {
+ #card-sec-2-1{
+  margin-left: 1rem;
+ height: 28rem;
+ width: 12rem;
+ }
+}
+#card-sec-2-1-2{
+ margin-left: 7rem;
+ border-radius: 2rem;
+}
+@media (max-width: 480px) {
+ #card-sec-2-1-2{
+  margin-left: 1rem;
+ height: 28rem;
+ width: 12rem;
+ }
+}
